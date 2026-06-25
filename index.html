@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen Dudhyal | QA Automation Engineer</title>
+  <meta name="description" content="ISTQB Certified QA Automation Engineer with 3+ years experience in Playwright, Cypress & Selenium." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- ========== LOADER ========== -->
+<div id="loader">
+  <div class="loader-inner">
+    <span class="loader-text">NK</span>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">N<span>K</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"    class="nav-link active">Home</a></li>
+      <li><a href="#about"   class="nav-link">About</a></li>
+      <li><a href="#skills"  class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects"   class="nav-link">Projects</a></li>    
+      <li><a href="#blogs" class="nav-link">Blogs</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav Overlay -->
+<div class="mobile-overlay" id="mobileOverlay">
+  <button class="overlay-close" id="overlayClose"><i class="fas fa-times"></i></button>
+  <ul class="overlay-links">
+    <li><a href="#home"    class="overlay-link">Home</a></li>
+    <li><a href="#about"   class="overlay-link">About</a></li>
+    <li><a href="#skills"  class="overlay-link">Skills</a></li>
+    <li><a href="#experience" class="overlay-link">Experience</a></li>
+    <li><a href="#projects"   class="overlay-link">Projects</a></li>
+    <li><a href="#certifications" class="overlay-link">Certifications</a></li>
+    <li><a href="#blogs" class="overlay-link">Blogs</a></li>
+    <li><a href="#contact" class="overlay-link">Contact</a></li>
+  </ul>
+  <div class="overlay-socials">
+    <a href="https://www.linkedin.com/in/naveen-dudhyal-927a84351/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/naveendudhyalqa/" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:naveen.dudhyal.qa@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</div>
+
+<!-- ========== HERO ========== -->
+<section id="home" class="hero">
+  <div class="hero-bg-pattern"></div>
+  <canvas id="particleCanvas"></canvas>
+  <div class="container hero-container">
+
+    <!-- Left Content -->
+    <div class="hero-content" data-aos="fade-right" data-aos-duration="900">
+      <div class="hero-contact-line">
+        <span><i class="fas fa-envelope"></i> naveen.dudhyal.qa@gmail.com</span>
+        <span class="hcl-divider">|</span>
+        <span><i class="fas fa-phone"></i> +91 7744938625</span>
+      </div>
+      <div class="hero-badge">
+        <i class="fas fa-certificate"></i> ISTQB Certified &nbsp;|&nbsp; <span class="badge-dot"></span> Available for Work
+      </div>
+      <h1 class="hero-title">Hi, I'm <br /><span class="hero-name">Naveen Dudhyal</span></h1>
+      <h2 class="hero-subtitle">
+        <span id="typed-text"></span><span class="typed-cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        Automation Framework Architect with 3+ years designing scalable test suites using
+        <strong>Playwright</strong>, <strong>Cypress</strong> &amp; <strong>Selenium</strong>.
+        Delivering quality at speed with CI/CD-driven pipelines.
+      </p>
+
+      <!-- Stats -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num" data-target="3" data-suffix="+">3+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="150" data-suffix="+">150+</span>
+          <span class="stat-label">Test Scripts</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="95" data-suffix="%">95%</span>
+          <span class="stat-label">Coverage</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="3" data-suffix="">3</span>
+          <span class="stat-label">Frameworks</span>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="hero-btns">
+        <a href="assets/resume/SoftwareTester_NaveenKD.pdf" download class="btn btn-primary">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+
+      <!-- Social Links -->
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/naveen-dudhyal-927a84351/" target="_blank" class="social-icon" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/naveendudhyalqa/" target="_blank" class="social-icon" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:naveen.dudhyal.qa@gmail.com" class="social-icon" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+917744938625" class="social-icon" title="Phone">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right — Photo Loop -->
+    <div class="hero-photo-wrap" data-aos="fade-left" data-aos-duration="900">
+      <div class="photo-ring">
+        <div class="photo-container" id="photoContainer">
+          <img src="assets/images/profile/photo2.png" alt="Naveen Dudhyal" class="profile-photo" />
+          <img src="assets/images/profile/photo3.png" alt="Naveen Dudhyal" class="profile-photo" />
+          <img src="assets/images/profile/photo4.png" alt="Naveen Dudhyal" class="profile-photo" />
+          <img src="assets/images/profile/photo5.png" alt="Naveen Dudhyal" class="profile-photo" />
+          <img src="assets/images/profile/photo6.png" alt="Naveen Dudhyal" class="profile-photo" />
+        </div>
+      </div>
+      <!-- Floating badges -->
+      <div class="float-badge badge-playwright">Playwright</div>
+      <div class="float-badge badge-cypress">Cypress</div>
+      <div class="float-badge badge-selenium">Selenium</div>
+    </div>
+
+  </div>
+  <!-- Scroll indicator -->
+  <a href="#about" class="scroll-down">
+    <i class="fas fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">Get to Know Me</p>
+      <h2 class="section-title">About <span>Me</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <!-- Left: Stats -->
+      <div class="about-stats" data-aos="fade-right">
+        <div class="about-stat-card">
+          <i class="fas fa-briefcase"></i>
+          <div>
+            <h3>3+ Years</h3>
+            <p>Professional Experience</p>
+          </div>
+        </div>
+        <div class="about-stat-card">
+          <i class="fas fa-code"></i>
+          <div>
+            <h3>150+ Scripts</h3>
+            <p>Automated Test Cases</p>
+          </div>
+        </div>
+        <div class="about-stat-card">
+          <i class="fas fa-shield-halved"></i>
+          <div>
+            <h3>95% Coverage</h3>
+            <p>Across All Test Types</p>
+          </div>
+        </div>
+        <div class="about-stat-card">
+          <i class="fas fa-bolt"></i>
+          <div>
+            <h3>50–60% Faster</h3>
+            <p>Project Delivery</p>
+          </div>
+        </div>
+        <div class="about-stat-card">
+          <i class="fas fa-layer-group"></i>
+          <div>
+            <h3>3 Frameworks</h3>
+            <p>Built from Scratch</p>
+          </div>
+        </div>
+        <div class="about-stat-card">
+          <i class="fas fa-globe"></i>
+          <div>
+            <h3>9 Client Projects</h3>
+            <p>Across Industries</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Text -->
+      <div class="about-text" data-aos="fade-left">
+        <p>
+          I'm an <strong>ISTQB-certified Software Test Engineer</strong> based in Pune, India,
+          with 3 years of experience designing scalable automation frameworks using
+          <strong>Playwright (TypeScript)</strong>, <strong>Cypress (JavaScript)</strong>, and
+          <strong>Selenium (Java)</strong>.
+        </p>
+        <p>
+          I'm passionate about building clean, reusable tests and CI/CD-driven quality pipelines
+          that help teams ship faster with fewer defects. My goal is to grow into a lead automation
+          role, architecting reliable testing solutions at scale.
+        </p>
+        <p>
+          I leverage AI-assisted tools like <strong>GitHub Copilot</strong>, <strong>ChatGPT</strong>,
+          and <strong>Claude AI</strong> to accelerate test development, delivering projects within
+          50–60% of allocated timelines.
+        </p>
+
+        <div class="about-info-grid">
+          <div class="about-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Pune, India</span>
+          </div>
+          <div class="about-info-item">
+            <i class="fas fa-envelope"></i>
+            <span>naveen.dudhyal.qa@gmail.com</span>
+          </div>
+          <div class="about-info-item">
+            <i class="fas fa-phone"></i>
+            <span>+91 7744938625</span>
+          </div>
+          <div class="about-info-item">
+            <i class="fas fa-language"></i>
+            <span>English, Hindi, Marathi, Telugu</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">What I Work With</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="skills-tabs" data-aos="fade-up">
+      <button class="skill-tab active" data-tab="technical">Technical</button>
+      <button class="skill-tab" data-tab="tools">Tools</button>
+      <button class="skill-tab" data-tab="languages">Languages</button>
+      <button class="skill-tab" data-tab="ides">IDEs &amp; Software</button>
+      <button class="skill-tab" data-tab="extensions">Extensions</button>
+      <button class="skill-tab" data-tab="ai">AI Tools</button>
+      <button class="skill-tab" data-tab="soft">Soft Skills</button>
+    </div>
+
+    <!-- Tab Contents -->
+    <div class="skills-content">
+
+      <!-- Technical Skills -->
+      <div class="tab-pane active" id="tab-technical">
+        <div class="skill-tags">
+          <span class="skill-tag">Manual Testing</span>
+          <span class="skill-tag">Automation Testing</span>
+          <span class="skill-tag">Functional Testing</span>
+          <span class="skill-tag">Non-Functional Testing</span>
+          <span class="skill-tag">GUI Testing</span>
+          <span class="skill-tag">Regression &amp; Retesting</span>
+          <span class="skill-tag">API Testing</span>
+          <span class="skill-tag">UI Automation</span>
+          <span class="skill-tag">Cross-Browser Testing</span>
+          <span class="skill-tag">Responsive Testing</span>
+          <span class="skill-tag">Accessibility Testing</span>
+          <span class="skill-tag">Performance Testing</span>
+          <span class="skill-tag">Page Object Model (POM)</span>
+          <span class="skill-tag">Hybrid Framework</span>
+          <span class="skill-tag">Modular Framework (API)</span>
+          <span class="skill-tag">STLC &amp; Bug Life Cycle</span>
+          <span class="skill-tag">Agile Methodology</span>
+          <span class="skill-tag">CI/CD Integration</span>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="tab-pane" id="tab-tools">
+        <div class="tool-grid">
+          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" alt="Playwright" /><span>Playwright</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/cypress/ffffff" alt="Cypress" /><span>Cypress</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/selenium/43B02A" alt="Selenium" /><span>Selenium</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/postman/FF6C37" alt="Postman" /><span>Postman</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/jira/0052CC" alt="JIRA" /><span>JIRA</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/zoho/E42527" alt="Zoho" /><span>Zoho</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/jenkins/D24939" alt="Jenkins" /><span>Jenkins</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/apachemaven/C71A36" alt="Maven" /><span>Maven</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" /><span>GitHub</span></div>
+          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/browserstack/browserstack-original.svg" alt="BrowserStack" /><span>BrowserStack</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/dbeaver/382923" alt="DBeaver" style="filter:brightness(2)"/><span>DBeaver</span></div>
+          <div class="tool-card tool-card-badge gtmetrix-card"><span class="gtmetrix-logo">GT</span><span>GTmetrix</span></div>
+          <div class="tool-card tool-card-badge"><i class="fas fa-chart-line"></i><span>Allure Reports</span></div>
+          <div class="tool-card tool-card-badge"><i class="fab fa-google"></i><span>PageSpeed</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" /><span>n8n</span></div>
+        </div>
+      </div>
+
+      <!-- Programming Languages -->
+      <div class="tab-pane" id="tab-languages">
+        <div class="lang-grid">
+          <div class="lang-card">
+            <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" />
+            <h3>TypeScript</h3>
+            <p>Primary Language</p>
+            <div class="lang-bar-wrap">
+              <div class="lang-bar-track"><div class="lang-bar" data-width="88"></div></div>
+              <span>88%</span>
+            </div>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" />
+            <h3>JavaScript</h3>
+            <p>Core Scripting</p>
+            <div class="lang-bar-wrap">
+              <div class="lang-bar-track"><div class="lang-bar" data-width="85"></div></div>
+              <span>85%</span>
+            </div>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" />
+            <h3>Java</h3>
+            <p>Selenium Framework</p>
+            <div class="lang-bar-wrap">
+              <div class="lang-bar-track"><div class="lang-bar" data-width="75"></div></div>
+              <span>75%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IDEs & Software -->
+      <div class="tab-pane" id="tab-ides">
+        <div class="tool-grid">
+          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" /><span>VS Code</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/eclipseide/2C2255" style="filter:brightness(3)" alt="Eclipse" /><span>Eclipse IDE</span></div>
+          <div class="tool-card tool-card-badge"><i class="fas fa-rocket"></i><span>Antigravity IDE</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/dbeaver/382923" alt="DBeaver" style="filter:brightness(2)"/><span>DBeaver</span></div>
+        </div>
+      </div>
+
+      <!-- Extensions -->
+      <div class="tab-pane" id="tab-extensions">
+        <div class="skill-tags">
+          <span class="skill-tag"><i class="fas fa-crosshairs"></i> SelectorsHub</span>
+          <span class="skill-tag"><i class="fas fa-search"></i> Playwright Locator Inspector</span>
+          <span class="skill-tag"><i class="fas fa-record-vinyl"></i> Cypress Chrome Recorder</span>
+          <span class="skill-tag"><i class="fas fa-universal-access"></i> Accessibility Insights</span>
+          <span class="skill-tag"><i class="fas fa-key"></i> Authenticator</span>
+          <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Mobile Simulator</span>
+          <span class="skill-tag"><i class="fas fa-font"></i> WhatFont</span>
+        </div>
+      </div>
+
+      <!-- AI Tools -->
+      <div class="tab-pane" id="tab-ai">
+        <div class="tool-grid">
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub Copilot" /><span>GitHub Copilot</span></div>
+          <div class="tool-card"><img src="assets/images/logo/chatgpt.jpg" alt="ChatGPT" /><span>ChatGPT</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/googlegemini/8E75B2" alt="Gemini" /><span>Gemini</span></div>
+          <div class="tool-card"><img src="https://cdn.simpleicons.org/claude/D97757" alt="Claude AI" /><span>Claude AI</span></div>
+          <div class="tool-card tool-card-badge"><i class="fas fa-brain"></i><span>Perplexity AI</span></div>
+          <div class="tool-card tool-card-badge"><i class="fas fa-robot"></i><span>CodiumAI</span></div>
+          <div class="tool-card tool-card-badge"><i class="fas fa-vial"></i><span>Testim AI</span></div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="tab-pane" id="tab-soft">
+        <div class="skill-tags">
+          <span class="skill-tag"><i class="fas fa-users"></i> Agile Team Collaboration</span>
+          <span class="skill-tag"><i class="fas fa-bug"></i> Defect Analysis &amp; Reporting</span>
+          <span class="skill-tag"><i class="fas fa-tasks"></i> Test Planning &amp; Estimation</span>
+          <span class="skill-tag"><i class="fas fa-code-review"></i> Peer &amp; Code Review</span>
+          <span class="skill-tag"><i class="fas fa-comments"></i> Client Communication</span>
+          <span class="skill-tag"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+          <span class="skill-tag"><i class="fas fa-eye"></i> Attention to Detail</span>
+          <span class="skill-tag"><i class="fas fa-clock"></i> Time Management</span>
+          <span class="skill-tag"><i class="fas fa-sync-alt"></i> Adaptability</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">Career Journey</p>
+      <h2 class="section-title">Work <span>Experience</span></h2>
+    </div>
+
+    <div class="experience-timeline" data-aos="fade-up">
+      <div class="exp-card">
+        <div class="exp-header">
+          <div class="exp-logo">AI</div>
+          <div class="exp-meta">
+            <h3>Software Test Engineer</h3>
+            <h4>August Infotech</h4>
+            <span class="exp-date"><i class="fas fa-calendar-alt"></i> Jun 2023 – Present &nbsp;|&nbsp; <i class="fas fa-map-marker-alt"></i> Surat, Gujarat</span>
+          </div>
+          <span class="exp-badge">Current</span>
+        </div>
+        <p class="exp-summary">
+          Designing and maintaining scalable test automation frameworks while driving quality across the full STLC in an Agile environment.
+        </p>
+        <ul class="exp-list">
+          <li>Built scalable automation frameworks from scratch using <strong>Playwright (TypeScript)</strong>, <strong>Cypress (JavaScript)</strong>, and <strong>Selenium (Java)</strong> with POM and Hybrid architectures.</li>
+          <li>Authored and maintained <strong>150+ automated test scripts</strong> across UI and API layers, achieving <strong>95% test coverage</strong>.</li>
+          <li>Integrated automated tests into <strong>CI/CD pipelines</strong> (Jenkins, GitHub) with Maven and Allure reporting for continuous testing.</li>
+          <li>Conducted end-to-end <strong>API testing</strong> using Postman and built automated API suites with Modular Framework including schema validation and token management.</li>
+          <li>Executed comprehensive manual, functional, GUI, regression, and non-functional testing following STLC and Bug Life Cycle.</li>
+          <li>Managed defects using <strong>JIRA and Zoho</strong>; participated in peer reviews for manual test cases and automation scripts.</li>
+          <li>Validated cross-browser compatibility, accessibility, and performance using <strong>BrowserStack, Accessibility Insights, GTmetrix</strong>, and Google PageSpeed.</li>
+          <li>Leveraged <strong>AI-assisted tools</strong> (GitHub Copilot, ChatGPT, Claude AI) to deliver projects within <strong>50–60% of allocated timelines</strong>.</li>
+          <li>Actively participated in Agile ceremonies — daily Scrum, sprint syncs, client discussions, and retrospectives.</li>
+        </ul>
+        <div class="exp-tech-row">
+          <span>Playwright</span><span>Cypress</span><span>Selenium</span>
+          <span>TypeScript</span><span>JavaScript</span><span>Java</span>
+          <span>Jenkins</span><span>Postman</span><span>JIRA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">What I've Built</p>
+      <h2 class="section-title">My <span>Projects</span></h2>
+    </div>
+
+    <!-- Project Filter -->
+    <div class="project-tabs" data-aos="fade-up">
+      <button class="proj-tab active" data-proj="professional">
+        <i class="fas fa-building"></i> Professional
+      </button>
+      <button class="proj-tab" data-proj="personal">
+        <i class="fas fa-laptop-code"></i> Personal
+      </button>
+    </div>
+
+    <!-- Professional Projects -->
+    <div class="project-pane active" id="proj-professional">
+      <div class="projects-grid">
+
+        <div class="proj-card" data-aos="fade-up">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool cypress">Cypress</span>
+              <span class="proj-badge-scope">9 Websites</span>
+            </div>
+          </div>
+          <h3>Bain Capital</h3>
+          <p class="proj-company">Financial Services Group</p>
+          <p>End-to-end QA across Bain Capital's corporate web ecosystem — main site and 8 specialized fund/division sites.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: HTML, Staging &amp; Live</span>
+            <span><i class="fas fa-robot"></i> Auto: Cypress (JS) on Staging</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-magnet"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool playwright">Playwright</span>
+              <span class="proj-badge-scope">6 Websites</span>
+            </div>
+          </div>
+          <h3>First Light Leads</h3>
+          <p class="proj-company">Lead Generation Platforms · UK</p>
+          <p>QA for a suite of UK-based quote and lead-generation websites including Accounting Quotes, Conveyancing Prices, and more.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: HTML, Staging &amp; Live</span>
+            <span><i class="fas fa-robot"></i> Auto: Playwright (TS)</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-ship"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool playwright">Playwright</span>
+            </div>
+          </div>
+          <h3>Virtu Ferries</h3>
+          <p class="proj-company">Ferry Booking Platform</p>
+          <p>QA for a ferry booking platform covering manual and automated testing across all environments.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: HTML, Staging &amp; Live</span>
+            <span><i class="fas fa-robot"></i> Auto: Playwright (TS)</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-gavel"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool playwright">Playwright</span>
+            </div>
+          </div>
+          <h3>Property Auction</h3>
+          <p class="proj-company">Rebidder.it — Online Auction</p>
+          <p>QA for an online property auction platform (authenticated environment) across HTML, Staging &amp; Live.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: HTML, Staging &amp; Live</span>
+            <span><i class="fas fa-robot"></i> Auto: Playwright (TS)</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-handshake"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-scope">Admin + Frontend</span>
+            </div>
+          </div>
+          <h3>CA Partners</h3>
+          <p class="proj-company">Business Services Platform</p>
+          <p>Full-stack QA covering both admin panel and frontend functionality across Staging and Live environments.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: Staging &amp; Live</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-heartbeat"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-scope">Drupal Platform</span>
+            </div>
+          </div>
+          <h3>Concept Medical</h3>
+          <p class="proj-company">CCR Web Platform</p>
+          <p>QA for a medical industry Drupal platform (authenticated staging) with comprehensive manual test coverage.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: HTML &amp; Staging</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-clock"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-scope">Internal App</span>
+            </div>
+          </div>
+          <h3>TAG — Attendance App</h3>
+          <p class="proj-company">TWA · Internal Application</p>
+          <p>QA for an internal attendance management application across HTML and Staging environments.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: HTML &amp; Staging</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-music"></i></div>
+          </div>
+          <h3>ZipDJ</h3>
+          <p class="proj-company">Digital Music Platform</p>
+          <p>Manual QA across Staging environment ensuring functional and UI quality.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: Staging</span>
+          </div>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-golf-ball"></i></div>
+          </div>
+          <h3>Bobby Jones CSF</h3>
+          <p class="proj-company">Sports Foundation</p>
+          <p>Manual QA across Staging environment ensuring functional and UI quality.</p>
+          <div class="proj-scope">
+            <span><i class="fas fa-check-circle"></i> Manual: Staging</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Personal Projects -->
+    <div class="project-pane" id="proj-personal">
+      <div class="projects-grid">
+
+        <div class="proj-card" data-aos="fade-up">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-network-wired"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool playwright">Playwright</span>
+              <span class="proj-badge-tool ts">TypeScript</span>
+            </div>
+          </div>
+          <h3>Playwright API Automation</h3>
+          <p class="proj-company">Modular Framework</p>
+          <p>Enterprise-level API framework with layered architecture, AJV schema validation, Winston logging, Faker data, and multi-env support.</p>
+          <div class="proj-tech-row">
+            <span>Playwright</span><span>TypeScript</span><span>Node.js</span><span>AJV</span><span>Jenkins</span>
+          </div>
+          <a href="https://github.com/naveendudhyalqa/API_Modular_Framework" target="_blank" class="proj-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-layer-group"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool selenium">Selenium</span>
+              <span class="proj-badge-tool java">Java</span>
+            </div>
+          </div>
+          <h3>Selenium Hybrid Framework</h3>
+          <p class="proj-company">MyShop · E-Commerce</p>
+          <p>Scalable Selenium (Java) Hybrid Framework using OOP, POM, TestNG, Log4j, and ExtentReports for dynamic reporting.</p>
+          <div class="proj-tech-row">
+            <span>Java</span><span>Selenium</span><span>TestNG</span><span>Maven</span><span>ExtentReports</span>
+          </div>
+          <a href="https://github.com/NKDudhyal/MyShop" target="_blank" class="proj-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool cypress">Cypress</span>
+              <span class="proj-badge-tool js">JavaScript</span>
+            </div>
+          </div>
+          <h3>Cypress E-Commerce Automation</h3>
+          <p class="proj-company">SwagLabs Demo</p>
+          <p>Automates Add to Cart and Checkout flow using Cypress + JavaScript. Uses Mocha, POM, Mochawesome reports.</p>
+          <div class="proj-tech-row">
+            <span>Cypress</span><span>JavaScript</span><span>Mocha</span><span>Mochawesome</span>
+          </div>
+          <a href="https://github.com/naveendudhyalqa/Cypress_Project_SwagLabDemo" target="_blank" class="proj-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-file-alt"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-scope">1,346 Test Cases</span>
+            </div>
+          </div>
+          <h3>Manual Test Case Suite</h3>
+          <p class="proj-company">Concept Medical — Drupal</p>
+          <p>Comprehensive QA test suite with 1,346 documented test cases (including E-Banking Admin automation set), authored with AI-assisted tooling.</p>
+          <div class="proj-tech-row">
+            <span>Manual Testing</span><span>Excel</span><span>AI-assisted</span>
+          </div>
+          <a href="https://github.com/naveendudhyalqa/Manual-Test-Cases" target="_blank" class="proj-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="proj-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="proj-card-top">
+            <div class="proj-icon"><i class="fas fa-paint-brush"></i></div>
+            <div class="proj-badges">
+              <span class="proj-badge-tool html">HTML/CSS</span>
+            </div>
+          </div>
+          <h3>Frontend Practice Projects</h3>
+          <p class="proj-company">Clone-Style UI Builds</p>
+          <p>Clone-style UI builds for learning: Zomato, Netflix, Travel Booking, Social Media layout, and Photo Gallery.</p>
+          <div class="proj-tech-row">
+            <span>HTML</span><span>CSS</span><span>Bootstrap</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== BLOGS ========== -->
+<section id="blogs" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">Thought Leadership</p>
+      <h2 class="section-title">My <span>Blogs</span></h2>
+    </div>
+
+    <div class="blogs-grid">
+
+      <a href="https://www.augustinfotech.com/blogs/how-to-perform-contract-testing-using-playwright/" target="_blank" class="blog-card" data-aos="fade-up">
+        <div class="blog-card-inner">
+          <div class="blog-meta">
+            <span class="blog-tag playwright-tag">Playwright</span>
+            <span class="blog-company"><i class="fas fa-building"></i> August Infotech</span>
+          </div>
+          <h3>How to Perform Contract Testing Using Playwright</h3>
+          <p>A deep dive into contract testing with Playwright — ensuring API consumers and providers stay in sync.</p>
+          <div class="blog-footer">
+            <span class="blog-read">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.augustinfotech.com/blogs/cypress-assertions-best-practices-and-common-mistakes/" target="_blank" class="blog-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="blog-card-inner">
+          <div class="blog-meta">
+            <span class="blog-tag cypress-tag">Cypress</span>
+            <span class="blog-company"><i class="fas fa-building"></i> August Infotech</span>
+          </div>
+          <h3>Cypress Assertions: Best Practices and Common Mistakes</h3>
+          <p>Covering the most effective assertion patterns in Cypress and the pitfalls developers commonly fall into.</p>
+          <div class="blog-footer">
+            <span class="blog-read">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.augustinfotech.com/blogs/how-to-use-cypress-fixtures-and-scripts-for-testing-1000-news-items/" target="_blank" class="blog-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="blog-card-inner">
+          <div class="blog-meta">
+            <span class="blog-tag cypress-tag">Cypress</span>
+            <span class="blog-company"><i class="fas fa-building"></i> August Infotech</span>
+          </div>
+          <h3>How to Use Cypress Fixtures and Scripts for Testing 1000 News Items</h3>
+          <p>Scaling test coverage using Cypress fixtures and scripts to efficiently validate large data sets.</p>
+          <div class="blog-footer">
+            <span class="blog-read">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.augustinfotech.com/blogs/cypress-vs-selenium-the-ultimate-web-automation-debate/" target="_blank" class="blog-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="blog-card-inner">
+          <div class="blog-meta">
+            <span class="blog-tag vs-tag">Comparison</span>
+            <span class="blog-company"><i class="fas fa-building"></i> August Infotech</span>
+          </div>
+          <h3>Cypress vs Selenium: The Ultimate Web Automation Debate</h3>
+          <p>An in-depth comparison of Cypress and Selenium — speed, architecture, ecosystem, and real-world use cases.</p>
+          <div class="blog-footer">
+            <span class="blog-read">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.augustinfotech.com/blogs/cypress-vs-human-tester-who-can-find-more-bugs/" target="_blank" class="blog-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="blog-card-inner">
+          <div class="blog-meta">
+            <span class="blog-tag insight-tag">Insight</span>
+            <span class="blog-company"><i class="fas fa-building"></i> August Infotech</span>
+          </div>
+          <h3>Cypress vs Human Tester: Who Can Find More Bugs?</h3>
+          <p>Exploring the strengths and blind spots of automated testing versus human intuition in bug detection.</p>
+          <div class="blog-footer">
+            <span class="blog-read">Read Article <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== CERTIFICATIONS ========== -->
+<section id="certifications" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">Credentials</p>
+      <h2 class="section-title">My <span>Certifications</span></h2>
+    </div>
+
+    <div class="cert-grid">
+
+      <div class="cert-card" data-aos="fade-up" onclick="openLightbox('assets/certificates/cert-cypress.png', 'Cypress - Modern Automation Testing from Scratch + Frameworks')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-cypress.png" alt="Cypress Certificate" />
+          <div class="cert-overlay"><i class="fas fa-expand-alt"></i></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-issuer udemy">Udemy</span>
+          <h3>Cypress — Modern Automation Testing from Scratch + Frameworks</h3>
+          <span class="cert-date"><i class="fas fa-calendar-alt"></i> Oct 2023</span>
+        </div>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="50" onclick="openLightbox('assets/certificates/cert-html-css.png', 'HTML, CSS & Bootstrap — Edureka')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-html-css.png" alt="HTML CSS Certificate" />
+          <div class="cert-overlay"><i class="fas fa-expand-alt"></i></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-issuer edureka">Edureka</span>
+          <h3>Module One: HTML, CSS &amp; Bootstrap</h3>
+          <span class="cert-date"><i class="fas fa-calendar-alt"></i> Nov 2023</span>
+        </div>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="100" onclick="openLightbox('assets/certificates/cert-javascript.png', 'Module Two: JavaScript — Edureka')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-javascript.png" alt="JavaScript Certificate" />
+          <div class="cert-overlay"><i class="fas fa-expand-alt"></i></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-issuer edureka">Edureka</span>
+          <h3>Module Two: JavaScript</h3>
+          <span class="cert-date"><i class="fas fa-calendar-alt"></i> Nov 2023</span>
+        </div>
+      </div>
+
+      <div class="cert-card" data-aos="fade-up" data-aos-delay="150" onclick="openLightbox('assets/certificates/cert-jmeter.png', 'Learn JMeter from Scratch on Live Apps — Performance Testing')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-jmeter.png" alt="JMeter Certificate" />
+          <div class="cert-overlay"><i class="fas fa-expand-alt"></i></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-issuer udemy">Udemy</span>
+          <h3>Learn JMeter from Scratch on Live Apps — Performance Testing</h3>
+          <span class="cert-date"><i class="fas fa-calendar-alt"></i> Nov 2023</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Certificate Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <img src="" alt="" id="lightboxImg" />
+    <p id="lightboxCaption"></p>
+  </div>
+</div>
+
+<!-- ========== EDUCATION ========== -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">Academic Background</p>
+      <h2 class="section-title">My <span>Education</span></h2>
+    </div>
+    <div class="edu-card" data-aos="fade-up">
+      <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="edu-info">
+        <h3>B.Tech / B.E. — Mechanical Engineering</h3>
+        <h4>Vidya Vikas Pratishthan's Institute of Engineering and Technology</h4>
+        <span><i class="fas fa-map-marker-alt"></i> Solapur, Maharashtra</span>
+        <span><i class="fas fa-calendar-alt"></i> 2022</span>
+      </div>
+    </div><br>
+
+    <div class="edu-card" data-aos="fade-up">
+      <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="edu-info">
+        <h3>10th</h3>
+        <h4>Little Flower Convent High School</h4>
+        <span><i class="fas fa-map-marker-alt"></i> Solapur, Maharashtra</span>
+        <span><i class="fas fa-calendar-alt"></i> 2014</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-tag">Get in Touch</p>
+      <h2 class="section-title">Contact <span>Me</span></h2>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Left: Info -->
+      <div class="contact-info" data-aos="fade-right">
+        <h3>Let's work together</h3>
+        <p>Have a project, opportunity, or just want to connect? Feel free to reach out — I typically respond within 24 hours.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <span>Email</span>
+            <a href="mailto:naveen.dudhyal.qa@gmail.com">naveen.dudhyal.qa@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <span>Phone</span>
+            <a href="tel:+917744938625">+91 7744938625</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <span>Location</span>
+            <a>Pune, Maharashtra, India</a>
+          </div>
+        </div>
+
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/naveen-dudhyal-927a84351/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/naveendudhyalqa/" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <form class="contact-form" id="contactForm" data-aos="fade-left">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="from_name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="from_email" placeholder="john@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Job Opportunity / Collaboration" required />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="5" placeholder="Your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <a href="#home" class="nav-logo">N<span>K</span></a>
+      <p>QA Automation Engineer · Pune, India</p>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#blogs">Blog</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/naveen-dudhyal-927a84351/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/naveendudhyalqa/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:naveen.dudhyal.qa@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="footerYear"></span> Naveen Dudhyal. Crafted with <i class="fas fa-heart"></i> &amp; precision.</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" title="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+</html>
